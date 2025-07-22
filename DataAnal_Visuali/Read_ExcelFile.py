@@ -8,6 +8,8 @@ customer_record = pd.read_csv('C:\\Users\\LENOVO\\OneDrive\\Documents\\Sale_data
 print(customer_record.head(7)) # return first 7 records from dataFrame i.e customer_record
 # print(customer_record['Gender'].unique())
 # print(customer_record['Gender'].value_counts())
-# print(customer_record.info())
+print()
+print(customer_record.isnull().sum())
 print("\n")
-print(customer_record.describe())
+print(customer_record.info())
+# print(customer_record.describe())
