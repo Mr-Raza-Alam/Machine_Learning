@@ -7,7 +7,7 @@ ii) contains elements of diff. type
 iii) ordered and can contain duplicate elements
 
 usage : use tuples to store collections of items which are needs to change like
- storing day's name in a week month's name  in a year 
+ storing day's name in a week ,month's name  in a year,
  storing the record of sales of 2022 for the organisation
 its syntax
  tupleName = ()

@@ -1,5 +1,5 @@
 '''
-Data Manipulation with NumPy
+Instruction 3 : Data Manipulation with NumPy
 '''
 import numpy as np
 

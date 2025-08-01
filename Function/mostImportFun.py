@@ -28,7 +28,7 @@ first_NAMEs = ["John","Marry","Bob"]
 last_NAMEs = ["Smith","Jane","Smith"]
 
 #full_NAMEs = zip(first_NAMEs,last_NAMEs)
-#so as zip() return directly zip object with is location
+#so as zip() return directly zip object with its location
 #And to get the actual value needs to convert into list type b/c zip(list1,list2) contains list-items
 full_NAMEs = list(zip(first_NAMEs,last_NAMEs)) # now it return list of tuples where each tuple contain (first,last)Name
 print(full_NAMEs) 
