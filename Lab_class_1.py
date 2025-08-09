@@ -6,7 +6,8 @@ def frequencies(nums):
      i = 1
      c = 1
      counts={} #empty dict
-     while i<len(nums):
+     while i<len(nums
+                 ):
         if(nums[i] == rept):
             c +=1
             rept = nums[i]
@@ -18,7 +19,8 @@ def frequencies(nums):
      counts[rept] = c
      return counts
 
-nums = [2,4,5,6,2,4,5,1,3,1,2,1,5,2]            
+nums = [2,4,5,6,2,4,5,1,3,1,2,1,5,2] 
+# print('original list : ',nums,'\nFrequencies of each element of list are')           
 # print(frequencies(nums))
 
 #q2 GCD of 2 numbers
@@ -65,13 +67,41 @@ def countCharacter(str1):
         'others' : count[2]
     }
     return res
-string = input("Enter a string : ")
-print(countCharacter(string))
+# string = input("Enter a string : ")
+# print(countCharacter(string))         
 
+''' 
+q5 concatenate 2 Strings in the following formats
+   input : st1 = 'abc',st2 = 'pqr;
+   output : arbqcp
+'''
 
+def concateStrs(st1,st2):
+    res = ''
+    if len(st1)>=len(st2):
+        i , j = 0,len(st2)-1
+        while i<=j:
+            res +=st1[i]+st2[j]
+            i +=1
+            j -=1
+        # now for remaining characters of string st1
+        while i<len(st1):
+            res +=st1[i]
+            i +=1
+    else :
+        i , j = 0,len(st2)-1
+        while i<=j:
+            res +=st1[i]+st2[j]
+            i +=1
+            j -=1
+        # now for remaining characters of string st2
+        while j>=0:
+            res +=st2[j]
+            j -=1
+    return res
 
-            
-            
+st1 = input('Enter 1st string : ')
+st2 = input('Enter 2nd string : ')
 
-
-
+print('\nAfter concatenation of 2 strings are : ',concateStrs(st1,st2))
+print()

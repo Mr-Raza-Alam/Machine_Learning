@@ -69,6 +69,8 @@ q3.) Check for the validation of braces
 '''
 
 def isValid(s):
+   if len(s) == 1:
+      return False
    st = []
    for i in s:
       if i == '{':
@@ -80,6 +82,8 @@ def isValid(s):
       else:
          if (len(st)<=0 or i != st.pop()):
             return False
+   if len(st) != 0:
+      return False
    return True
 
 # st = input('Enter a set of bracket : ')
@@ -92,10 +96,23 @@ q4.) Perform binary substraction of 2 hexxdecimal inputs
    input : a = 4abe , b = 5a1    
    output:  17680  (19,121 - 1441)
 '''
-a = int(input('Enter a hexdecimal number : '),16)
-b = int(input('Enter another hexdecimal number : '),16)
+# a = int(input('Enter a hexdecimal number : '),16)
+# b = int(input('Enter another hexdecimal number : '),16)
 
-res = a-b
-print(bin(res))
+# res = a-b
+# print('In decimal : ',res)
+# print('\nIn binary form : ',bin(res))
 
+def bitwiseOp(a,b):
+   print(a,'AND',b,' = ',a&b)
+   print(a,'OR',b,' = ',a|b)
+   print(a,'XOR',b,' = ',a^b)
+   print(a,' is right shift by ',b,' place = ',a>>b)
+   print(a,' is left shift by ',b,' place = ',a<<b)
+   print('negation of ',a,' : ',~a)
+   print('negation of ',b,' : ',~b)
 
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+
+bitwiseOp(a,b)
