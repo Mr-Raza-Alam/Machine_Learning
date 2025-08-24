@@ -53,15 +53,18 @@ scaled_data = scaler.fit_transform(data)  # will return scaled data in list of l
 # plt.show()
 
 #now build the model with an optimal value of cluster i.e select k = 6 
-
-kmeans = KMeans(n_clusters=6,init='k-means++')
+from sklearn.metrics import silhouette_score
+kmeans = KMeans(n_clusters=25,init='k-means++')
 kmeans.fit(scaled_data)
 pred = kmeans.predict(scaled_data)
 
-# df = pd.DataFrame(scaled_data)
+
+df = pd.DataFrame(scaled_data) 
 # print(df.head(6))
 # now add a new column cluster and assign the predicted value 
-# df['cluster'] = pred 
+df['cluster'] = pred 
+accuracy_score = silhouette_score(df,pred)
+print(f"\nAccuracy of the model : {accuracy_score*100:.2f}%.")
 # print(df.tail(12))
 # 
 # print('No. of data-points in each cluster among 6 different clusters \n',df['cluster'].value_counts())
@@ -87,7 +90,13 @@ def get_cluster_res():
     res = kmeans.predict(scaled_userdata)
     print('The customer belong to cluster : ',res[0])
 
-get_cluster_res()
+# get_cluster_res()
+# # check accuracy of the model
+
+# accuracy_score = silhouette_score(scaled_data,pred)
+# print(f"\nAccuracy of the model : {accuracy_score*100:.2f}%.")
+
+
 
 # plt.figure(figsize=(10,5))
 # plt.plot(range(1,21),wscc,'go-',markerfacecolor = 'blue',linewidth=0.7,alpha=0.8)
