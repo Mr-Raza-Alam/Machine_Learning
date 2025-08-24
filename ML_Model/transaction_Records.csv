@@ -99,3 +99,104 @@ Transaction-id,TransactionAmount,TransactionTime,MerchantCategory,CustomerAge,Cu
 98,27564.35,10:14:25,Travel,24,Male,51430,Pune,3,0
 99,28560.07,17:20:50,Electronics,40,Male,190187,Ahmedabad,5,0
 100,27261.56,04:38:57,Fuel,34,Male,107762,Bengaluru,1,0
+101,1629.83,00:00:00,Health,45,Male,102276,Pune,1,0
+102,208.55,01:00:00,Groceries,32,Female,148723,London,3,1
+103,3043.09,02:00:00,Groceries,65,Female,178421,Dubai,2,0
+104,959.88,03:00:00,Groceries,36,Male,59443,Sydney,3,0
+105,4870.66,04:00:00,Entertainment,37,Other,75080,London,3,1
+106,3079.32,05:00:00,Travel,64,Male,115899,Mumbai,0,0
+107,2937.15,06:00:00,Restaurants,44,Male,198746,New York,3,0
+108,3102.42,07:00:00,Travel,62,Male,164589,Dubai,3,0
+109,29.81,08:00:00,Health,19,Male,116942,Tokyo,5,0
+110,498.08,09:00:00,Restaurants,18,Other,196964,Tokyo,3,0
+111,2446.44,10:00:00,Travel,48,Female,155147,London,5,0
+112,2975.59,11:00:00,Clothing,22,Female,132785,New York,4,0
+113,1222.29,12:00:00,Health,45,Other,132764,Tokyo,4,0
+114,3312.4,13:00:00,Clothing,42,Male,137526,New York,0,0
+115,290.31,14:00:00,Clothing,38,Male,114854,Mumbai,1,0
+116,3644.91,15:00:00,Groceries,25,Other,199507,Mumbai,2,1
+117,3880.51,16:00:00,Clothing,34,Male,193505,London,2,0
+118,1945.55,17:00:00,Electronics,26,Other,119434,Paris,3,0
+119,4066.06,18:00:00,Travel,18,Male,148787,Sydney,1,0
+120,4267.02,19:00:00,Clothing,51,Other,72423,London,4,0
+121,637.43,20:00:00,Travel,43,Other,55111,New York,3,0
+122,3311.47,21:00:00,Groceries,37,Female,123101,Dubai,1,1
+123,722.06,22:00:00,Groceries,61,Female,38816,New York,1,1
+124,1232.7,23:00:00,Restaurants,61,Male,91433,Tokyo,0,0
+125,969.16,16:55:40,Groceries,25,Other,42154,New York,0,0
+126,3344.85,04:23:35,Health,58,Female,138594,New York,3,1
+127,3679.18,09:12:06,Health,59,Other,164451,Dubai,4,0
+128,2237.78,13:19:12,Clothing,67,Other,27944,Tokyo,4,0
+129,4421.84,23:44:38,Restaurants,59,Female,173225,Dubai,4,0
+130,2341.94,17:23:53,Entertainment,39,Male,178044,New York,2,0
+131,2025.81,10:20:17,Clothing,70,Male,51067,Mumbai,3,0
+132,98.11,21:55:58,Entertainment,54,Female,103856,Dubai,2,1
+133,434.17,14:39:05,Travel,22,Female,163971,New York,1,0
+134,4795.31,08:02:28,Clothing,61,Female,102031,Sydney,1,1
+135,3295.29,01:05:29,Electronics,39,Male,161287,Dubai,3,0
+136,758.54,22:22:00,Entertainment,59,Other,51607,London,5,0
+137,3299.17,11:21:16,Entertainment,42,Female,106255,New York,1,0
+138,1937.75,18:09:44,Electronics,68,Female,91974,London,3,0
+139,4059.27,15:11:56,Electronics,33,Male,91813,Sydney,3,0
+140,3730.8,13:46:38,Entertainment,69,Male,84899,New York,2,0
+141,396.84,08:49:53,Groceries,36,Male,51455,Dubai,1,0
+142,3613.6,22:33:25,Health,29,Female,175932,Sydney,3,0
+143,2622.91,16:36:59,Electronics,46,Other,42705,London,4,0
+144,2390.76,10:15:07,Electronics,33,Female,180451,Dubai,0,0
+145,3725.66,21:31:16,Health,48,Female,85205,Tokyo,5,1
+146,492.66,14:33:45,Clothing,24,Male,138891,Tokyo,1,0
+147,2914.46,04:02:05,Groceries,58,Male,132236,Mumbai,1,0
+148,1476.53,02:27:08,Groceries,18,Other,183530,Mumbai,5,0
+149,439,23:11:16,Electronics,64,Male,148830,Dubai,4,0
+150,4536.16,22:48:06,Groceries,52,Female,175092,New York,2,0
+151,4611.56,03:57:54,Clothing,58,Male,150578,Dubai,1,0
+152,798.62,20:15:58,Clothing,36,Other,68631,Dubai,2,0
+153,3816.48,13:07:55,Entertainment,48,Male,153848,Sydney,3,0
+154,278.93,05:55:40,Restaurants,24,Male,72756,Tokyo,2,0
+155,3342.51,11:02:32,Entertainment,57,Female,111991,Paris,5,0
+156,4528.45,06:36:42,Electronics,32,Other,42655,London,0,1
+157,2698.1,11:23:49,Electronics,40,Female,59789,Mumbai,4,0
+158,2198.68,17:45:21,Electronics,22,Male,116662,London,3,0
+159,2923.5,13:32:02,Restaurants,18,Other,135453,London,0,0
+160,3402.98,04:31:20,Clothing,35,Female,80197,London,5,0
+161,4868.69,02:41:07,Groceries,51,Male,23752,New York,2,0
+162,2828.25,22:28:48,Groceries,54,Other,68841,New York,5,0
+163,3762.53,05:15:06,Restaurants,60,Male,179301,Dubai,0,1
+164,3940.12,13:30:18,Travel,19,Other,145779,New York,5,0
+165,1661.03,09:01:46,Electronics,69,Female,113604,Dubai,4,0
+166,3949.17,11:39:45,Groceries,42,Male,73206,New York,3,0
+167,1845.03,07:16:58,Travel,29,Male,109269,London,2,0
+168,3657.01,18:22:21,Health,25,Other,150986,London,5,0
+169,1457.51,02:37:56,Entertainment,65,Other,33175,London,5,0
+170,2580.04,15:54:15,Restaurants,68,Female,102731,Sydney,5,0
+171,1618.63,18:51:37,Health,54,Other,143637,Sydney,1,0
+172,1154.06,02:58:18,Groceries,59,Female,188806,Paris,4,0
+173,4707.53,23:53:13,Clothing,41,Other,133960,Mumbai,5,0
+174,189.05,12:34:32,Groceries,50,Other,126747,Dubai,1,0
+175,292.43,01:19:38,Groceries,52,Male,36330,London,4,0
+176,3429.43,04:49:48,Groceries,66,Other,155137,Sydney,2,0
+177,4318.97,21:10:12,Entertainment,65,Female,39905,New York,2,0
+178,4784.11,11:34:55,Travel,26,Male,75272,Paris,0,0
+179,1358.67,14:17:14,Restaurants,54,Male,62071,Sydney,3,0
+180,2884.54,23:20:57,Travel,45,Female,142864,Mumbai,5,0
+181,2155.97,08:12:33,Health,35,Female,165558,Dubai,2,0
+182,4848.55,22:06:16,Restaurants,43,Male,63485,Dubai,3,0
+183,584.38,16:07:54,Travel,24,Male,180967,Mumbai,0,0
+184,552.18,14:10:35,Groceries,21,Male,89338,Sydney,5,0
+185,2478.38,22:58:04,Entertainment,19,Female,156505,Dubai,5,0
+186,2631.89,23:29:27,Electronics,52,Other,132497,London,1,0
+187,52.68,17:31:48,Clothing,36,Male,48375,Tokyo,5,0
+188,2328.75,19:44:34,Restaurants,69,Other,119391,New York,3,0
+189,1149.47,04:25:14,Health,46,Male,196044,Paris,3,0
+190,4951.07,10:49:02,Health,19,Male,162898,Dubai,1,0
+191,3780.34,20:35:54,Clothing,55,Male,175924,New York,2,1
+192,2188.1,08:08:16,Restaurants,50,Male,165289,Tokyo,2,0
+193,1192.2,23:02:44,Travel,49,Male,174315,New York,4,0
+194,2273.59,15:05:33,Groceries,48,Male,108171,New York,4,1
+195,4211.92,23:08:18,Groceries,60,Male,111589,Mumbai,5,0
+196,3317.16,04:07:00,Clothing,67,Other,148309,Paris,3,0
+197,4900.55,08:26:08,Restaurants,56,Other,140191,New York,4,0
+198,2962.75,06:50:30,Health,50,Other,124943,Tokyo,3,0
+199,2315.56,10:40:51,Restaurants,57,Female,128590,Tokyo,1,0
+200,2070.91,08:59:22,Entertainment,27,Female,79793,Tokyo,3,1
+201,2070.91,10:24:09,Electronics,60,Female,102276,Paris,0,0
