@@ -1,7 +1,7 @@
 '''
 build a stack(LIFO) data structure in python
 
-properties of python are :
+methods in stack are :
   Push() means add(x)
   Pop() means remove() data from first entry
   peek() means return first entry value
