@@ -1,5 +1,7 @@
 '''
 Build a linklist data structure 
+
+Methods in linkedlist are:
  add : first(), last() , middle()
  remove : first(), last() ,middle()
  reverselist()
