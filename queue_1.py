@@ -1,7 +1,7 @@
 '''
 build a queue(FIFO) data structure in python
 
-properties of python are :
+methods in queue are :
   enque() means add(x)
   deque() means remove() data from first entry
   peek() means return first entry value
