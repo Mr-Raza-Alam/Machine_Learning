@@ -20,7 +20,7 @@ anonymousDetails = ["Anonymous",8590321232,"anon342@gmail.com",23,67.8,True]
 # Access the items
 # syntax listName[0] return first actual element like 0th based index array
 print(skills[5])
-#slicing th list and its syntax listName[si:ei](ei is exclusive)
+#slicing the list and its syntax listName[si:ei)(where ei is exclusive)
 
 print(anonymousDetails[0:]) # return whole list in this [] form
 # but 
