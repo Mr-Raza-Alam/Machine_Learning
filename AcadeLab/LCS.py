@@ -15,7 +15,7 @@ def lcs(st1,st2):
                 j +=1
             else :
                 i +=1  
-    else: # since len(st2) > len(st1)
+    else: # since len(st2) < len(st1)
         i,j= 0,0
         while(i<len(st1) and j <len(st2)):
             if(st1[i] == st2[j]):

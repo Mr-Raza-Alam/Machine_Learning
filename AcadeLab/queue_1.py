@@ -14,7 +14,7 @@ class Queue:
     def enque(self,x):
         self.lst.append(x)
     def deque(self):
-         self.lst.pop(0) if self.isEmpty() == False else print("Queue is empty")
+         self.lst.pop(0) if not self.isEmpty() else print("Queue is empty")
     def peek(self):
         return self.lst[0]
     def isEmpty(self):

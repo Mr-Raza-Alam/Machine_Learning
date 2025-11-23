@@ -11,13 +11,11 @@ def overlapp(lst):
           else:
                tmp = lst[r]
           r +=1
-     print("After eliminating the overlap\n",lst)
+     print("\nAfter eliminating the overlap\n",lst)
 lst = [
     [1,3],
-    [4,6],
-    [5,16],
-    [19,28],
-    [23,32],
-    [30,40]]               
-
+    [2,6],
+    [4,10],
+    [9,40]]               
+print("The original intervals : ",lst)
 overlapp(lst)

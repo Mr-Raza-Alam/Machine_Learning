@@ -57,6 +57,26 @@ def middleNode(l):
     # when f will be at end of list then s will be at middle of list
     return s  
 
+def find_middle(start, end):
+    slow = fast = start
+    while fast != end and fast.next != end:
+        slow = slow.next
+        fast = fast.next.next
+    return slow
+
+def binary_search_linked_list(head, target):
+    start = head
+    end = None
+    while start != end:
+        mid = find_middle(start, end)
+        if mid.val == target:
+            return True
+        elif mid.val < target:
+            start = mid.next
+        else:
+            end = mid
+    return False
+
 l = LinkedList()
 # Add
 l.addLast(2)
@@ -64,6 +84,5 @@ l.addLast(5)
 l.addLast(3)
 l.addLast(7)
 l.addLast(4)
-
 print('The middle node value of linkedlist is ',middleNode(l).val)
 

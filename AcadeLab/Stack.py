@@ -3,9 +3,9 @@ build a stack(LIFO) data structure in python
 
 properties of python are :
   Push() means add(x)
-  Pop() means remove() data from first entry
-  peek() means return first entry value
-  isEmpty() means check whether the queue is empty  or not
+  Pop() means remove() data from the top entry
+  peek() means return the top entry value
+  isEmpty() means check whether the stack is empty  or not
 '''
 
 class Stack:
@@ -14,13 +14,13 @@ class Stack:
     def Push(self,x):
         self.lst.append(x)
     def Pop(self):
-         self.lst.pop() if self.isEmpty() == False else print("Queue is empty")
+         self.lst.pop() if not self.isEmpty() else print("Stack is empty")
     def peek(self):
-        return self.lst[-1]
+        return self.lst[-1]  
     def isEmpty(self):
         return len(self.lst) == 0
     def display(self):
-        for i in reversed(self.lst): # Remember reversed() a method used to reverse the list element and return a list
+        for i in reversed(self.lst): # Remember reversed(lst) a method used to reverse the list element and return a list
             print(i,end=' ')
 
 st = Stack() 
@@ -45,7 +45,7 @@ while True:
                 y = int(input('Enter your required data : '))
                 st.Push(y)
             elif choose == 'M':
-                n = int(input('Enter a no. required to add the data : '))
+                n = int(input('Enter a no. of data required to add : '))
                 for i in range(1,n+1):
                     st.Push(int(input()))
             else:
@@ -55,7 +55,7 @@ while True:
             print('Do you really delete a data?hit 1,if yes otherwise hit 0')
             st.Pop() if int(input()) == 1 else None
         case 3:
-            print('The peek value of the queue = ',st.peek())
+            print('The peek value of the stack = ',st.peek())
         case 4: 
             print('Yes,stack is empty.') if st.isEmpty() else print('No,stack is unempty.')
         case 5:

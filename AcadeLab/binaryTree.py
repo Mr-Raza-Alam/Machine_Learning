@@ -11,7 +11,7 @@ class BT:
 
     def build_BT(self,num):
         self.idx += 1 
-        if self.idx >= len(num) or num[self.idx] == -1:
+        if self.idx == len(num) or num[self.idx] == -1:
             return None
         else:
             newNode = Node(num[self.idx])
@@ -26,18 +26,27 @@ class BT:
         self.preorder(root.left)
         self.preorder(root.right)
     
+    def inorder(self,root):
+        if root is None:
+            return
+        self.inorder(root.left)
+        print(root.item,end=" ")
+        self.inorder(root.right)
+
     def height_BT(self,root):
         if root is None:
             return 0
         lh = self.height_BT(root.left)
         rh = self.height_BT(root.right)
-        return max(lh,rh) + 1
+        return max(lh, rh) + 1
     
 # initialize 
-lst = [5,6,2,-1,-1,5,-1,7,7,9,-1,8,1,-1,-1]
+# lst = [1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1]
+lst = [5,6,2,-1,5,-1,7,-1,-1,-1,7,9,-1,8,-1,-1,1,-1,-1]
+print("The avialable data is : ",lst)
 bt = BT()
 root = bt.build_BT(lst)
-bt.preorder(root)
+bt.inorder(root)
 print("\nThe height of the tree = ",bt.height_BT(root))
 
 
